@@ -14,7 +14,7 @@
                 return percentage;
             }
         }
-        public double GetAverage(double totalMarks,int numberOfSubjects)
+        public double CalculateAverage(double totalMarks,int numberOfSubjects)
         {
             if (numberOfSubjects == 0)
             {
