@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sms-api", "sms-api\sms-api.csproj", "{91F3F043-F4EC-4AE6-BCC1-6EF54C13FCE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sms-api.test", "sms-api.test\sms-api.test.csproj", "{A9175208-C824-466B-9987-9B40071E84A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91F3F043-F4EC-4AE6-BCC1-6EF54C13FCE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F3F043-F4EC-4AE6-BCC1-6EF54C13FCE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F3F043-F4EC-4AE6-BCC1-6EF54C13FCE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F3F043-F4EC-4AE6-BCC1-6EF54C13FCE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9175208-C824-466B-9987-9B40071E84A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9175208-C824-466B-9987-9B40071E84A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9175208-C824-466B-9987-9B40071E84A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9175208-C824-466B-9987-9B40071E84A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B098AA05-4230-4EBD-B5FE-609705EABB51}
+	EndGlobalSection
+EndGlobal
