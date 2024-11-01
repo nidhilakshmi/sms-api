@@ -14,5 +14,17 @@
                 return percentage;
             }
         }
+        public double CalculateAverage(double totalMarks,int numberOfSubjects)
+        {
+            if (numberOfSubjects == 0)
+            {
+                return 0.0;
+            }
+            else
+            {
+                var average = (totalMarks / numberOfSubjects);
+                return average;
+            }
+        }
     }
 }

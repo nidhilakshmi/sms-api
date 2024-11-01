@@ -30,5 +30,28 @@ namespace sms_api.test.CalculationTest
             //Assert
             Assert.Equal(50, response);
         }
+
+        [Fact]
+        public void GetAverage_NumberOfSubjects0_return0()
+        {
+            //Arrange
+            Calculator calculator = new Calculator();
+            //Act
+            var response = calculator.GetAverage(200, 0);
+            //Assert
+            Assert.Equal(0, response);
+
+        }
+
+        [Fact]
+        public void GetAverage_WithValidSubjectsNumber_Return_Valid()
+        {
+            //Arrange
+            Calculator calculator = new Calculator();
+            //Act
+            var response = calculator.GetAverage(100, 10);
+            //Assert
+            Assert.Equal(10, response);
+        }
     }
 }
